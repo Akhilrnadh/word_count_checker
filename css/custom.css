@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 360px){
+ .jumbotron h1{
+ 	font-size: 20px;
+ }
+}
+
+@media (min-width: 361px) {
+	.jumbotron h1{
+ 	font-size: 30px;
+ }
+}
+
+@media (max-width: 360px){
+ footer {
+ 	font-size: 12px;
+ 	text-align: center;
+ }
+}
